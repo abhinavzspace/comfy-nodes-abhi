@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 class UtilLoadJson:
     @classmethod
@@ -18,7 +19,7 @@ class UtilLoadJson:
 
     def load_json(self, file_path: str, print_to_console=False):
         # Open and read the JSON file directly
-        with file_path.open("r") as file:
+        with Path(file_path).open("r") as file:
             data = json.load(file)
             if print_to_console:
                 print("JSON content:", json.dumps(data, indent=4))
