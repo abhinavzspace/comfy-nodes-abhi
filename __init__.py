@@ -6,7 +6,6 @@ NODE_CLASS_MAPPINGS = {
     "InversionDemoLazyIndexSwitch": InversionDemoLazyIndexSwitch,
     "InversionDemoLazyMixImages": InversionDemoLazyMixImages,
     "InversionDemoLazyConditional": InversionDemoLazyConditional,
-    "GetColorTone": GetColorTone
 }
     
 print("\033[34mComfyUI Nodes Abhi: \033[92mLoaded\033[0m")
