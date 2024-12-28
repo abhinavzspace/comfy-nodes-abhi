@@ -1,5 +1,4 @@
 from .nodes.nodes import *
-from .nodes.dominant_color_node import *
 
 NODE_CLASS_MAPPINGS = { 
     "Load Json File": UtilLoadJson,
@@ -7,7 +6,7 @@ NODE_CLASS_MAPPINGS = {
     "InversionDemoLazyIndexSwitch": InversionDemoLazyIndexSwitch,
     "InversionDemoLazyMixImages": InversionDemoLazyMixImages,
     "InversionDemoLazyConditional": InversionDemoLazyConditional,
-    "Get Dominant Color In Image": DominantColorNode,
+    "GetColorTone": GetColorTone
 }
     
 print("\033[34mComfyUI Nodes Abhi: \033[92mLoaded\033[0m")
