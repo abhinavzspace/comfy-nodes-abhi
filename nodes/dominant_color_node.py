@@ -36,8 +36,3 @@ class DominantColorNode:
         )
 
         return (dominant_color_hex,)
-
-# Register the node
-NODE_CLASS_MAPPINGS = {
-    "DominantColorNode": DominantColorNode,
-}
