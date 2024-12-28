@@ -1,5 +1,5 @@
 from .nodes.nodes import *
-from .dominant_color_node import *
+from .nodes.dominant_color_node import *
 
 NODE_CLASS_MAPPINGS = { 
     "Load Json File": UtilLoadJson,
